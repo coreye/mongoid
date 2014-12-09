@@ -15,6 +15,9 @@ For instructions on upgrading to newer versions, visit
 
 * \#3773 Use nanoseconds for cache_key timestamp instead of plain seconds. (Máximo Mussini)
 
+* \#3792/\#3881 Fix many internal calls to #_id instead of #id to avoid issues
+  when overloading #id (Gauthier Delacroix)
+
 ## 4.0.0
 
 ### Major Changes (Backwards Incompatible)
